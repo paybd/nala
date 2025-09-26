@@ -144,7 +144,7 @@ export default function Home() {
               <div className="mt-8 flex items-center gap-8">
                 {/* QR with yellow ring */}
                 <div className="rounded-2xl bg-white p-3 ring-8 ring-yellow-300">
-                  <Image src="/qr.svg" alt="QR code" width={148} height={148} />
+                  <Image src="/qr.png" alt="QR code" width={148} height={148} />
                 </div>
                 {/* Arrow */}
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 80" className="hidden sm:block h-20 w-28 text-yellow-300">
