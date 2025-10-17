@@ -7,10 +7,10 @@ export default function Home() {
   return (
     <div className="font-sans">
       {/* হিরো সেকশন - গভীর নীল গ্রেডিয়েন্ট */}
-      <section id="hero" className="relative overflow-hidden bg-[linear-gradient(180deg,#071736_0%,#0b2a69_40%,#0a1030_100%)] text-white min-h-screen pt-16 flex items-center">
+      <section id="hero" className="relative overflow-hidden bg-[linear-gradient(180deg,#218A48_0%,#1a6b38_50%,#145c2f_100%)] text-white min-h-screen pt-16 flex items-center">
         <div className="absolute inset-0 pointer-events-none">
-          <Image src="/assets/hero.jpg" alt="হিরো ব্যাকগ্রাউন্ড" fill className="object-cover opacity-70" />
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(14,20,40,0.0)_0%,rgba(10,16,48,0.6)_70%)]" />
+          <Image src="/assets/hero_2.png" alt="হিরো ব্যাকগ্রাউন্ড" fill className="object-cover opacity-70" />
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(33,138,72,0.0)_0%,rgba(20,92,47,0.4)_70%)]" />
           <div className="absolute inset-0" style={{backgroundImage:"radial-gradient(1px 1px at 25px 25px, rgba(255,255,255,0.25) 1px, transparent 1px)",backgroundSize:"50px 50px",opacity:0.15}} />
         </div>
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-10 items-center relative">
@@ -19,7 +19,7 @@ export default function Home() {
               <span>দ্রুত ও নিরাপদ</span>
             </div>
             <h1 className="mt-4 text-4xl sm:text-5xl md:text-6xl font-semibold tracking-tight">
-              পরিবারের কাছে ভালোবাসা পাঠান <span className="text-sky-300">🩵</span>
+              দেশে রেমিট্যান্স পাঠানো এখন আরও সহজ ও নিরাপদ। 
             </h1>
             <p className="mt-4 text-lg text-white/80 max-w-xl">
               সারা বিশ্বে ৫ লক্ষ+ গ্রাহক এর সাথে যুক্ত হোন।
@@ -52,7 +52,7 @@ export default function Home() {
             বিশ্বজুড়ে <span className="text-sky-600">৫,০০,০০০+</span> গ্রাহকের আস্থা
           </h2>
           <p className="mt-4 text-lg text-neutral-700">US, UK, EU, আফ্রিকা ও এশিয়ায় তাৎক্ষণিক, সাশ্রয়ী ও নিরাপদ রেমিট্যান্স ট্রান্সফার।</p>
-          <a href="/nala_business.apk" className="mt-6 inline-flex rounded-full bg-sky-600 text-white px-6 py-3 text-sm font-medium">NALA ডাউনলোড করুন</a>
+          <a href="/pi_business.apk" className="mt-6 inline-flex items-center justify-center rounded-full bg-[#218A48] hover:bg-[#1a6b38] text-white px-6 py-3 text-sm font-medium transition">এখনই ডাউনলোড করুন</a>
         </div>
       </section>
 
@@ -64,7 +64,7 @@ export default function Home() {
             <div>
               <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight text-neutral-900">প্রবাস থেকে পরিবারের কাছে টাকা পাঠান</h2>
               <p className="mt-4 text-neutral-700 max-w-prose">বিদেশে থেকে দেশ এ রেমিট্যান্স পাঠানো এখন আরও সহজ ও নিরাপদ। </p>
-              <p className="mt-3 text-neutral-700 max-w-prose">NALA অ্যাপ এর মাধ্যমে পরিবারের কাছে দ্রুত টাকা পাঠান।</p>
+              <p className="mt-3 text-neutral-700 max-w-prose">PI Business অ্যাপ এর মাধ্যমে পরিবারের কাছে দ্রুত টাকা পাঠান।</p>
               <div className="mt-8 relative h-80 sm:h-96">
                 {/* halo */}
                 <div className="absolute inset-0 flex items-center justify-center">
@@ -79,7 +79,7 @@ export default function Home() {
                 <div className="absolute left-1/2 -translate-x-1/2 top-28 sm:top-32 w-[320px] sm:w-[360px] rounded-2xl bg-white shadow-2xl ring-1 ring-black/5 px-5 py-4 flex items-center gap-3">
                   <Image src="/assets/1.avif" alt="Friend avatar" width={40} height={40} className="h-10 w-10 rounded-full object-cover" />
                   <div className="flex-1">
-                    <div className="font-medium text-neutral-900">NALA বন্ধুদের কাছে পাঠান</div>
+                    <div className="font-medium text-neutral-900">PI Business এর মাধ্যমে বন্ধুদের কাছে পাঠান</div>
                     <div className="mt-1 text-xs text-neutral-600">কন্ট্যাক্ট নির্বাচন করুন</div>
                   </div>
                   <span className="text-xl">👋</span>
@@ -87,7 +87,7 @@ export default function Home() {
                 {/* bottom pill */}
                 <div className="absolute left-1/2 -translate-x-1/2 bottom-6 w-[280px] rounded-2xl bg-white shadow-xl ring-1 ring-black/5 px-4 py-3 flex items-center gap-2">
                   <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-sky-100 text-sky-700">💙</span>
-                  <span className="text-sm text-neutral-800">বেস্টির কাছ থেকে $100 পেয়েছেন!</span>
+                  <span className="text-sm text-neutral-800">ডিপোজিট করেছেন!</span>
                 </div>
               </div>
             </div>
@@ -102,7 +102,7 @@ export default function Home() {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="text-2xl font-semibold tracking-tight text-neutral-900">উচ্চ এক্সচেঞ্জ রেট , বৈধ মাধ্যম!</h3>
+                    <h3 className="text-2xl font-semibold tracking-tight text-neutral-900">সর্বোচ্চ এক্সচেঞ্জ রেট , বৈধ মাধ্যম!</h3>
                     <p className="mt-2 text-neutral-700">আপনার কষ্টার্জিত অর্থ দেশ এ আপনার পরিবারের কাছে পাঠান যখন ইচ্ছা, যত ইচ্ছা। উপভোগ করুণ সর্বাধিক বৈধ এক্সচেঞ্জ রেট</p>
                     <p className="mt-2 text-neutral-800"><span className="font-semibold">প্রতিদিন ১০ লক্ষ টাকা পর্যন্ত পাঠাতে পারবেন</span>—যেকোনো সময়, নিজ ফোন থেকে ।</p>
                   </div>
@@ -119,7 +119,7 @@ export default function Home() {
           {/* Mobile-only full-width: Stay in Control card */}
           <div className="md:hidden mt-10 sm:mt-12 rounded-3xl bg-white shadow-2xl ring-1 ring-black/5 p-6 sm:p-8">
             <h3 className="text-2xl font-semibold tracking-tight text-neutral-900">ট্রান্সফারের পূর্ণ নিয়ন্ত্রণ আপনার</h3>
-            <p className="mt-2 text-neutral-700 max-w-3xl">রিয়েল-টাইম আপডেট ও ইনস্ট্যান্ট নোটিফিকেশনে সব ট্রান্সফারের খোঁজ রাখুন—অ্যাপ ও ইমেইলে।</p>
+            <p className="mt-2 text-neutral-700 max-w-3xl">রিয়েল-টাইম আপডেট ও ইনস্ট্যান্ট নোটিফিকেশনে সব ট্রান্সফারের খোঁজ রাখুন</p>
           </div>
         </div>
       </section>
@@ -127,34 +127,39 @@ export default function Home() {
      
 
       {/* QR Download section (per provided design) */}
-      <section className="py-16 sm:py-24 bg-[#071736] text-white">
+      <section className="py-16 sm:py-24 bg-gradient-to-br from-[#218A48] to-[#145c2f] text-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             {/* Left: Large phone mockup with real screenshot */}
             <div className="relative mx-auto w-full max-w-md aspect-[9/19]">
               <div className="absolute inset-0 rounded-[3rem] bg-neutral-900 shadow-2xl" />
               <div className="absolute left-3 right-3 top-4 bottom-4 rounded-[2.5rem] bg-black overflow-hidden">
-                <Image src="/assets/phone.png" alt="NALA app screenshot" fill className="object-cover" />
+                <Image src="/assets/phone.jpg" alt="PI Business app screenshot" fill className="object-cover" />
               </div>
             </div>
 
-            {/* Right: Heading, QR, CTA */}
+            {/* Right: Heading, Text, CTA */}
             <div>
-              <h2 className="text-4xl sm:text-5xl font-semibold leading-tight">Scan the QR Code to<br />Download NALA!</h2>
-              <div className="mt-8 flex items-center gap-8">
-                {/* QR with yellow ring */}
-                <div className="rounded-2xl bg-white p-3 ring-8 ring-yellow-300">
-                  <Image src="/qr.png" alt="QR code" width={148} height={148} />
+              <h2 className="text-4xl sm:text-5xl font-semibold leading-tight text-white">PI Business ডাউনলোড করুন<br />এবং রিসেলার বাবসা শুরু করুন!</h2>
+              <p className="mt-6 text-lg text-white/90 max-w-md">
+                আজই PI Business দিয়ে শুরু করুন রিসেলার বিজনেস এবং আপনার প্রিয়জনদের কাছে দ্রুত, নিরাপদ এবং সাশ্রয়ী উপায়ে টাকা পাঠান ।
+              </p>
+              <div className="mt-8 space-y-4">
+                <div className="flex items-center gap-3 text-sm text-white/80">
+                  <div className="h-2 w-2 rounded-full bg-white"></div>
+                  <span>ট্রান্সফারে কোনো ফি নেই</span>
                 </div>
-                {/* Arrow */}
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 80" className="hidden sm:block h-20 w-28 text-yellow-300">
-                  <path d="M10 60c30-40 70-40 100-20" fill="none" stroke="currentColor" strokeWidth="6" strokeLinecap="round" />
-                  <path d="M88 30l20 10-12 16" fill="none" stroke="currentColor" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" />
-                </svg>
+                <div className="flex items-center gap-3 text-sm text-white/80">
+                  <div className="h-2 w-2 rounded-full bg-white"></div>
+                  <span>তাৎক্ষণিক টাকা পাঠানো</span>
+                </div>
+                <div className="flex items-center gap-3 text-sm text-white/80">
+                  <div className="h-2 w-2 rounded-full bg-white"></div>
+                  <span>সেরা এক্সচেঞ্জ রেট</span>
+                </div>
               </div>
-              <a href="/nala_business.apk" className="mt-10 inline-flex items-center gap-2 rounded-full bg-sky-500 hover:bg-sky-400 px-8 py-3 text-base font-medium shadow-lg transition">
-                <span>Download</span>
-                <Image src="/assets/logo_3.svg" alt="NALA" width={54} height={16} />
+              <a href="/pi_business.apk" className="mt-8 inline-flex items-center justify-center rounded-full bg-[#218A48] hover:bg-[#1a6b38] px-8 py-3 text-base font-medium shadow-lg transition">
+                <span>এখনই ডাউনলোড করুন</span>
               </a>
             </div>
           </div>

@@ -15,10 +15,10 @@ const banglaFont = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "NALA — পরিবারের কাছে ভালোবাসা পাঠান",
+  title: "PI Business — পরিবারের কাছে ভালোবাসা পাঠান",
   description: "দ্রুত, সাশ্রয়ী ও নিরাপদ আন্তর্জাতিক রেমিট্যান্স সেবা। ৫ লক্ষ+ গ্রাহকদের সাথে যুক্ত হোন।",
   icons: {
-    icon: "/assets/logo_3.svg",
+    icon: "/assets/logo_2.png",
   },
 };
 
@@ -32,11 +32,11 @@ export default function RootLayout({
       <body className={`${banglaFont.className} antialiased bg-white text-neutral-900`}>
         <Header />
         <main>{children}</main>
-        <footer className="bg-[linear-gradient(180deg,#0b2a69_0%,#0a1030_100%)] text-white">
+        <footer className="bg-gradient-to-br from-[#1a6b38] to-[#145c2f] text-white">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12 grid gap-8 md:grid-cols-3">
             <div>
               <div className="flex items-center gap-2">
-                <Image src="/assets/logo_3.svg" alt="NALA" width={100} height={100} />
+                <Image src="/assets/logo_2.png" alt="PI Business" width={100} height={100} />
                
               </div>
               <p className="mt-3 text-sm text-white/80">#TheNextExchanger</p>
@@ -52,8 +52,8 @@ export default function RootLayout({
                 <ul className="space-y-1">
                   <li><Link href="#" className="hover:underline">আমাদের রোডম্যাপ</Link></li>
                   <li><Link href="#" className="hover:underline">লাইভ আপডেট</Link></li>
-                  <li><Link href="#" className="hover:underline">NALA দিয়ে তৈরি করুন</Link></li>
-                  <li><Link href="#" className="hover:underline">NALA মার্চ স্টোর</Link></li>
+                  <li><Link href="#" className="hover:underline">PI Business দিয়ে তৈরি করুন</Link></li>
+                  <li><Link href="#" className="hover:underline">PI Business মার্চ স্টোর</Link></li>
                 </ul>
               </div>
               <div>
@@ -77,7 +77,7 @@ export default function RootLayout({
               <div>
                 <h3 className="font-medium mb-2">যোগাযোগ</h3>
                 <ul className="space-y-1">
-                  <li><a href="mailto:mamanala@nala.com" className="hover:underline">mamanala@nala.com</a></li>
+                  <li><a href="mailto:contact@pibusiness.com" className="hover:underline">contact@pibusiness.com</a></li>
                   <li className="text-white/80">USA · NL · UK · KE</li>
                 </ul>
               </div>
@@ -85,7 +85,7 @@ export default function RootLayout({
           </div>
           <div className="border-t border-white/10">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-6 text-xs text-white/70">
-              <p>© NALA INC ২০২৫। যুক্তরাজ্য, ইউরোপীয় ইউনিয়ন ও যুক্তরাষ্ট্রের নিয়ন্ত্রিত প্রতিষ্ঠানের সাথে অংশীদারিত্বে লাইসেন্সপ্রাপ্ত। প্রযোজ্য ক্ষেত্রে গ্রাহকের অর্থ পৃথক অ্যাকাউন্টে সুরক্ষিত থাকে।</p>
+              <p>© PI Business INC ২০২৫। যুক্তরাজ্য, ইউরোপীয় ইউনিয়ন ও যুক্তরাষ্ট্রের নিয়ন্ত্রিত প্রতিষ্ঠানের সাথে অংশীদারিত্বে লাইসেন্সপ্রাপ্ত। প্রযোজ্য ক্ষেত্রে গ্রাহকের অর্থ পৃথক অ্যাকাউন্টে সুরক্ষিত থাকে।</p>
             </div>
           </div>
         </footer>

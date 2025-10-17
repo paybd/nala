@@ -4,12 +4,12 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero */}
-      <section className="relative overflow-hidden bg-[linear-gradient(180deg,#071736_0%,#0b2a69_40%,#0a1030_100%)] text-white">
+      <section className="relative overflow-hidden bg-[linear-gradient(180deg,#218A48_0%,#1a6b38_50%,#145c2f_100%)] text-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 sm:py-20 grid md:grid-cols-2 gap-10 items-center">
           <div>
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-semibold tracking-tight">আমাদের সম্পর্কে</h1>
             <p className="mt-4 text-lg text-white/85 max-w-xl">
-              NALA তৈরি হয়েছে সাশ্রয়ী, দ্রুত এবং নির্ভরযোগ্য আন্তর্জাতিক পেমেন্টের প্রতিশ্রুতি নিয়ে।
+              PI Business তৈরি হয়েছে সাশ্রয়ী, দ্রুত এবং নির্ভরযোগ্য আন্তর্জাতিক পেমেন্টের প্রতিশ্রুতি নিয়ে।
             </p>
             <div className="mt-6 grid grid-cols-3 gap-4 text-center">
               <div className="rounded-2xl bg-white/10 p-4 backdrop-blur ring-1 ring-white/15">
@@ -29,7 +29,7 @@ export default function AboutPage() {
           <div className="relative mx-auto w-full max-w-md aspect-[9/19]">
             <div className="absolute inset-0 rounded-[3rem] bg-neutral-900 shadow-2xl" />
             <div className="absolute left-3 right-3 top-4 bottom-4 rounded-[2.5rem] bg-black overflow-hidden">
-              <Image src="/assets/phone.png" alt="NALA app" fill className="object-cover" />
+              <Image src="/assets/phone.jpg" alt="PI Business app" fill className="object-cover" />
             </div>
           </div>
         </div>
@@ -62,7 +62,7 @@ export default function AboutPage() {
           <div className="rounded-3xl bg-neutral-50 shadow-2xl ring-1 ring-black/5 p-6 sm:p-8">
             <h2 className="text-2xl sm:text-3xl font-semibold tracking-tight text-neutral-900">আমাদের গল্প</h2>
             <p className="mt-3 text-neutral-700">
-              আফ্রিকা, ইউরোপ ও এশিয়ায় বিস্তৃত টিম নিয়ে NALA আজ বৈধ, দ্রুত এবং সাশ্রয়ী পেমেন্টের জন্য একটি বিশ্বস্ত প্ল্যাটফর্ম। আমরা সেরা রেট, চমৎকার সাপোর্ট এবং স্মার্ট টেকনোলজির সমন্বয়ে আপনাকে সেরা অভিজ্ঞতা দেওয়ার চেষ্টা করি।
+              আফ্রিকা, ইউরোপ ও এশিয়ায় বিস্তৃত টিম নিয়ে PI Business আজ বৈধ, দ্রুত এবং সাশ্রয়ী পেমেন্টের জন্য একটি বিশ্বস্ত প্ল্যাটফর্ম। আমরা সেরা রেট, চমৎকার সাপোর্ট এবং স্মার্ট টেকনোলজির সমন্বয়ে আপনাকে সেরা অভিজ্ঞতা দেওয়ার চেষ্টা করি।
             </p>
           </div>
         </div>

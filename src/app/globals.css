@@ -10,11 +10,35 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-  /* Brand tokens */
-  --color-brand-900: #0a1030;
-  --color-brand-800: #0b2a69;
-  --color-brand-700: #0d1c43;
-  --color-accent-sky: #37a3ff;
+  
+  /* Primary Brand Colors - Optimized for contrast */
+  --color-primary: #218A48;
+  --color-primary-50: #f0f9f4;
+  --color-primary-100: #dcf2e4;
+  --color-primary-200: #bce5cd;
+  --color-primary-300: #8dd1a8;
+  --color-primary-400: #56b47c;
+  --color-primary-500: #218A48;
+  --color-primary-600: #1a6b38;
+  --color-primary-700: #145c2f;
+  --color-primary-800: #114d26;
+  --color-primary-900: #0d3e1e;
+  
+  /* Semantic colors for better contrast */
+  --color-success: #218A48;
+  --color-success-light: #56b47c;
+  --color-success-dark: #145c2f;
+  
+  /* Text colors optimized for contrast */
+  --color-text-primary: #1f2937;
+  --color-text-secondary: #6b7280;
+  --color-text-inverse: #ffffff;
+  --color-text-on-primary: #ffffff;
+  
+  /* Background variations */
+  --color-bg-primary: #ffffff;
+  --color-bg-secondary: #f9fafb;
+  --color-bg-accent: #f0f9f4;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -28,4 +52,53 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-geist-sans), ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+/* Utility classes for better contrast and visual hierarchy */
+.text-primary {
+  color: var(--color-text-primary);
+}
+
+.text-secondary {
+  color: var(--color-text-secondary);
+}
+
+.text-on-primary {
+  color: var(--color-text-on-primary);
+}
+
+.bg-primary {
+  background-color: var(--color-primary);
+}
+
+.bg-primary-light {
+  background-color: var(--color-primary-100);
+}
+
+.bg-primary-dark {
+  background-color: var(--color-primary-700);
+}
+
+/* Enhanced button styles for better contrast */
+.btn-primary {
+  background-color: var(--color-primary);
+  color: var(--color-text-on-primary);
+  border: 1px solid var(--color-primary-700);
+}
+
+.btn-primary:hover {
+  background-color: var(--color-primary-600);
+  border-color: var(--color-primary-800);
+}
+
+/* Card styles with proper contrast */
+.card-primary {
+  background-color: var(--color-bg-primary);
+  border: 1px solid var(--color-primary-200);
+  color: var(--color-text-primary);
+}
+
+.card-on-primary {
+  background-color: var(--color-primary);
+  color: var(--color-text-on-primary);
 }

@@ -75,11 +75,11 @@ export default function RatesCalculator() {
   }, [parsedAmount, rate]);
 
   const competitorTapTap = useMemo(() => {
-    return receiveAmount * 0.93; // 7% less than NALA
+    return receiveAmount * 0.93; // 7% less than PI Business
   }, [receiveAmount]);
 
   const competitorRia = useMemo(() => {
-    return receiveAmount * 0.92; // 8% less than NALA
+    return receiveAmount * 0.92; // 8% less than PI Business
   }, [receiveAmount]);
 
   function onSwap() {
@@ -91,7 +91,7 @@ export default function RatesCalculator() {
   }
 
   return (
-    <div className="mx-auto w-full max-w-md rounded-2xl border border-white/15 bg-white/10 p-5 text-white shadow-2xl backdrop-blur-2xl">
+    <div className="mx-auto w-full max-w-md rounded-2xl border border-white/15 bg-[#218A48]/90 p-5 text-white shadow-2xl backdrop-blur-2xl">
       {/* Tabs */}
       <div className="flex items-center gap-2 text-xs">
         <button
@@ -172,19 +172,19 @@ export default function RatesCalculator() {
           </div>
 
           <a
-            href="/nala_business.apk"
-            className="mt-1 w-full inline-flex items-center justify-center rounded-lg bg-sky-600 py-3 font-medium hover:bg-sky-500"
+            href="/pi_business.apk"
+            className="mt-1 w-full inline-flex items-center justify-center rounded-lg bg-[#218A48] py-3 font-medium hover:bg-[#1a6b38] transition"
           >
-            NALA Business ডাউনলোড করুন 🩵
+            PI Business ডাউনলোড করুন 🩵
           </a>
           <div className="mt-2 text-center text-base text-white/70">
-            আমাদের ব্যবসায়িক রেট চান? <a className="underline font-semibold" href="https://wa.me/?text=আমি NALA Business সেলস টিমের সাথে যোগাযোগ করতে চাই" target="_blank" rel="noopener noreferrer">সেলস টিমের সাথে যোগাযোগ করুন</a>।
+            আমাদের ব্যবসায়িক রেট চান? <a className="underline font-semibold" href="https://wa.me/?text=আমি PI Business সেলস টিমের সাথে যোগাযোগ করতে চাই" target="_blank" rel="noopener noreferrer">সেলস টিমের সাথে যোগাযোগ করুন</a>।
           </div>
         </div>
       ) : (
         <div className="mt-4 space-y-3 text-sm">
           {[
-            { name: "NALA", value: receiveAmount, highlight: true },
+            { name: "PI Business", value: receiveAmount, highlight: true },
             { name: "TapTap Send", value: competitorTapTap },
             { name: "Ria", value: competitorRia },
           ].map((row) => (
