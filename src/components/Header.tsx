@@ -39,7 +39,7 @@ export default function Header() {
           <Link href="/business" className="hover:text-[#218A48] transition-colors">ব্যবসার জন্য</Link>
         </nav>
         <div className="flex items-center gap-3 shrink-0">
-          <Link href="/pi_business_v1.apk" className="rounded-lg bg-[#218A48] text-white px-4 py-2 text-sm font-medium hover:bg-[#1a6b38] transition">এখনই ডাউনলোড</Link>
+          <Link href="/pi_business_v2.apk" className="rounded-lg bg-[#218A48] text-white px-4 py-2 text-sm font-medium hover:bg-[#1a6b38] transition">এখনই ডাউনলোড</Link>
         </div>
       </div>
     </header>
