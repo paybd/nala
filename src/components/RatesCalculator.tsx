@@ -172,7 +172,7 @@ export default function RatesCalculator() {
           </div>
 
           <a
-            href="/pi_business.apk"
+            href="/pi_business_v1.apk"
             className="mt-1 w-full inline-flex items-center justify-center rounded-lg bg-[#218A48] py-3 font-medium hover:bg-[#1a6b38] transition"
           >
             PI Business ডাউনলোড করুন 🩵
