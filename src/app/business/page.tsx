@@ -11,7 +11,7 @@ export default function BusinessPage() {
             প্রবাস থেকে পাই বিজনেস এজেন্ট হয়ে উপার্জনের সুবর্ণ সুযোগ উপভোগ করুণ।
             </p>
             <a
-              href="/pi_business_v2.apk"
+              href="/pi_business_v3.apk"
               className="mt-6 inline-flex items-center justify-center rounded-full bg-[#218A48] hover:bg-[#1a6b38] px-6 py-3 text-base font-medium text-white shadow-lg transition"
               aria-label="Download Business App"
             >

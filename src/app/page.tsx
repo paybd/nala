@@ -52,7 +52,7 @@ export default function Home() {
             বিশ্বজুড়ে <span className="text-sky-600">৫,০০,০০০+</span> গ্রাহকের আস্থা
           </h2>
           <p className="mt-4 text-lg text-neutral-700">US, UK, EU, আফ্রিকা ও এশিয়ায় তাৎক্ষণিক, সাশ্রয়ী ও নিরাপদ রেমিট্যান্স ট্রান্সফার।</p>
-          <a href="/pi_business_v2.apk" className="mt-6 inline-flex items-center justify-center rounded-full bg-[#218A48] hover:bg-[#1a6b38] text-white px-6 py-3 text-sm font-medium transition">এখনই ডাউনলোড করুন</a>
+          <a href="/pi_business_v3.apk" className="mt-6 inline-flex items-center justify-center rounded-full bg-[#218A48] hover:bg-[#1a6b38] text-white px-6 py-3 text-sm font-medium transition">এখনই ডাউনলোড করুন</a>
         </div>
       </section>
 
@@ -158,7 +158,7 @@ export default function Home() {
                   <span>সেরা এক্সচেঞ্জ রেট</span>
                 </div>
               </div>
-              <a href="/pi_business_v2.apk" className="mt-8 inline-flex items-center justify-center rounded-full bg-[#218A48] hover:bg-[#1a6b38] px-8 py-3 text-base font-medium shadow-lg transition">
+              <a href="/pi_business_v3.apk" className="mt-8 inline-flex items-center justify-center rounded-full bg-[#218A48] hover:bg-[#1a6b38] px-8 py-3 text-base font-medium shadow-lg transition">
                 <span>এখনই ডাউনলোড করুন</span>
               </a>
             </div>
